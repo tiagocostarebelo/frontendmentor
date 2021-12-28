@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Code Solution](https://github.com/tiagocostarebelo/frontendmentor_challenges/tree/main/stat_preview_card_component)
+- Solution URL: [Code Solution](https://github.com/tiagocostarebelo/frontendmentor_challenges/tree/main/stats_preview_card_component)
 - Live Site URL: [Live Solution](https://tcostarebelo-femchallenge-statpreviewcardcomponent.netlify.app/)
 
 ## My process
