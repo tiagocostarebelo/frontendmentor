@@ -28,13 +28,13 @@ Users should be able to:
 
 ### Screenshots
 
-!(Desktop Solution)[final_desktop_solution.png]
-!(Mobile Solution)[final_mobile_solution.png]
+![Desktop Solution](./final_screenshots/final_desktop_solution.png)
+![Mobile Solution](./final_screenshots/final_mobile_solution.png)
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/tiagocostarebelo/fm_Order-summary-component-challenge)
-- Live Site URL: [Add live site URL here](https://tiagocostarebelo.github.io/fm_Order-summary-component-challenge/)
+- Solution URL: [GitHub](https://github.com/tiagocostarebelo/frontendmentor_challenges/tree/main/order_summary_component)
+- Live Site URL: [Add live site URL here](https://tiagocostarebelo-femchallenge-ordersummarycomponent.netlify.app/)
 
 ## My process
 
