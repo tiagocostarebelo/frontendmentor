@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Mobile](./screenshots/stat__card_component_mobile.png)
+![Mobile](./screenshots/stat_card_component_mobile.png)
 ![Desktop](./screenshots/stat_card_component_desktop.png)
 
 ### Links
