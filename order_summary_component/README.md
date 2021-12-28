@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Screenshots
 
-![Desktop Solution](final_desktop_solution.png)
-![Mobile Solution](final_mobile_solution.png)
+!(Desktop Solution)[final_desktop_solution.png]
+!(Mobile Solution)[final_mobile_solution.png]
 
 ### Links
 
