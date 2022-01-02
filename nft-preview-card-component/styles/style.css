@@ -16,6 +16,163 @@ body {
     font-size: 18px;
     font-family: 'Outfit', sans-serif;
     background-color: var(--main-bg);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    background-color: var(--card-bg);
+    width: 275px;
+    height: 475px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 15px;
+
+    -webkit-box-shadow: 0px 40px 3px 12px hsla(216, 86%, 6%, 0.384);
+    box-shadow: 0px 40px 3px 12px hsla(216, 86%, 6%, 0.384);
+}
+
+.container .img-container {
+    position: relative;
+    cursor: pointer;
+}
+
+.container .img-container img {
+    max-width: 100%;
+    border-radius: 15px;
+    
+}
+
+.container .overlay {
+    background-color: var(--cyan);
+    opacity: 0;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.container .overlay .icon {
+    margin-top: 45%;
+}
+
+.container .img-container:hover .overlay {
+    opacity: 0.8;
+}
+
+.container .card-header {
+    text-align: left;
+}
+
+.container .card-header .card-title {
+    color: var(--white);
+    font-size: 22px;
+    margin-bottom: -5px;
+    cursor:pointer;
+}
+
+.container .card-header .card-title:hover {
+    color: var(--cyan);
+    
+}
+
+.container .card-header .card-descript {
+    color: var(--soft-blue);
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 300;
+}
+
+.container .card-stats {
+    display: flex;
+    align-items: center;
+    margin-top: -20px;
+    gap: 1em;
+    width: 100%;
+}
+
+.container .card-stats .price, 
+.container .card-stats .timer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 50%;
+}
+
+.container .card-stats .timer {
+    justify-content: flex-end;
+}
+
+.container .card-stats .price .text, 
+.container .card-stats .timer .text {
+    font-size: 16px;
+}
+
+.container .card-stats .price .text {
+    color: var(--cyan);
+    font-weight: 600;
+}
+
+.container .card-stats .timer .text {
+    color: var(--soft-blue);
+    font-weight: 400;
+}
+
+.container .dividing-line {
+    width: 100%;
+    height: 2px;
+    background-color: var(--line);
+}
+
+.container .card-footer {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.container .card-footer img {
+    max-width: 100%;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid var(--white);
+}
+
+.container .card-footer .card-owner {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--soft-blue);
+}
+
+.container .card-footer .card-owner span {
+    color: var(--white);
+}
+
+.container .card-footer .card-owner span:hover {
+    color: var(--cyan);
+}
+
+.container .card-footer .card-owner a {
+    text-decoration: none;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 60px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
 }
 
 
