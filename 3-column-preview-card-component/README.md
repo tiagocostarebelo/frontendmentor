@@ -11,6 +11,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
+  - [Useful Resources](#useful-resources)
 - [Author](#author)
 
 
@@ -30,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Code Solution](https://github.com/tiagocostarebelo/frontendmentor_challenges/tree/main/3-column-preview-card-component)
-- Live Site URL: [Live Solution](https://tiagocostarebelo-femchallenge-nftpreviewcardcomponent.netlify.app/)
+- Live Site URL: [Live Solution](https://tiagocostarebelo-femchallenge-3columnpreviewcardcomponent.netlify.app/)
 
 ## My process
 
@@ -51,6 +52,10 @@ This time, I've included CSS Resets that I haven't in the previous solutions.
 
 It was mostly a "remember" the basics of using Grid, but it was nice to use it again for a simple solution as this one.
 Will definitely try to use it more. Along with Flexbox it makes life easier when creating layouts.
+
+### Useful resources
+
+- [CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
 
 ## Author
 
