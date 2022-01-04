@@ -50,7 +50,7 @@ This time, I've included CSS Resets that I haven't in the previous solutions.
 
 ### What I learned
 
-It was mostly a "remember" the basics of using Grid, but it was nice to use it again for a simple solution as this one.
+It was mostly "remembering" the basics of using Grid, but it was nice to use it again for a simple solution as this one.
 Will definitely try to use it more. Along with Flexbox it makes life easier when creating layouts.
 
 ### Useful resources
