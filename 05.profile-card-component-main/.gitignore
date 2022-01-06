@@ -15,3 +15,7 @@
 .DS_Store
 
 .prettierignore
+
+
+# Not uploading to git the original default folders and files
+README-template.md
