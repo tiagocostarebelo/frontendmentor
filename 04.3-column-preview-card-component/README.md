@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Code Solution](https://github.com/tiagocostarebelo/frontendmentor_challenges/tree/main/3-column-preview-card-component)
+- Solution URL: [Code Solution](https://github.com/tiagocostarebelo/frontendmentor_challenges/tree/main/04.3-column-preview-card-component)
 - Live Site URL: [Live Solution](https://tiagocostarebelo-femchallenge-3columnpreviewcardcomponent.netlify.app/)
 
 ## My process

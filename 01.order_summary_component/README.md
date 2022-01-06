@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/tiagocostarebelo/frontendmentor_challenges/tree/main/order_summary_component)
+- Solution URL: [GitHub](https://github.com/tiagocostarebelo/frontendmentor_challenges/tree/main/01.order_summary_component)
 - Live Site URL: [Add live site URL here](https://tiagocostarebelo-femchallenge-ordersummarycomponent.netlify.app/)
 
 ## My process

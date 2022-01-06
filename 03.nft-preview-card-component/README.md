@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Code Solution](https://github.com/tiagocostarebelo/frontendmentor_challenges/tree/main/nft-preview-card-component)
+- Solution URL: [Code Solution](https://github.com/tiagocostarebelo/frontendmentor_challenges/tree/main/03.nft-preview-card-component)
 - Live Site URL: [Live Solution](https://tiagocostarebelo-femchallenge-nftpreviewcardcomponent.netlify.app/)
 
 ## My process
