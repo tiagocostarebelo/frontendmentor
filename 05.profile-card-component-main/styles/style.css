@@ -98,11 +98,10 @@ select {
 
 /* Mobile first */
 body {
-    font-size: 15px;
+    font-size: 0.938rem;
     font-family: 'Kumbh Sans', sans-serif;
     font-weight: 400;
     width: 100vw;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -117,8 +116,7 @@ body {
 .card {
     background-color: white;
     border-radius: 20px;
-    width: 330px;
-    height: 370px;
+    max-width: 330px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -135,6 +133,7 @@ body {
 .card .avatar {
     position: relative;
     width: 100%;
+    
 }
 
 .card .avatar img {
@@ -144,6 +143,7 @@ body {
     border-radius: 50%;
     border: 5px solid white;
     outline-offset: 2px;
+    background-color: white;
 }
 
 .card .user-info {
@@ -153,7 +153,7 @@ body {
 }
 
 .card .user-info .user-name {
-    font-size: 18px;
+    font-size: 1.125rem;
     color: var(--very-dark-desaturated-blue);
 }
 
@@ -169,19 +169,14 @@ body {
     margin-bottom: -20px;
 }
 
-.card .dividing-line {
-  width: 100%;
-  height: 2px;
-  color: var(--very-dark-desaturated-blue);
-  opacity: 0.2;
-  margin-bottom: 20px;
-}
-
 .card .user-stats {
-  width: 80%;
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;  
+  gap: 10px;
+  border-top: 1px solid rgba(150, 150, 150, 0.507);
+  padding: 20px;
 }
 
 .card .user-stats .follower-stat {
@@ -189,19 +184,20 @@ body {
 }
 
 .card .user-stats .follower-stat .stat-total {
-  font-size: 18px;
+  font-size: 1.125rem;
+  font-weight: 700;
   color: var(--very-dark-desaturated-blue);
 }
 
 .card .user-stats .follower-stat .stat-title {
-  font-size: 12px;
+  font-size: 0.75rem;
   color: var(--dark-grayish-blue);
   line-height: 1.8;
   letter-spacing: 2px;
 }
 
 .attribution { 
-    font-size: 11px; 
+    font-size: 0.75rem; 
     text-align: center; 
 }
 
