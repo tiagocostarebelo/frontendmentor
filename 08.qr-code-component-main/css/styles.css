@@ -1,0 +1,51 @@
+@import './resets.css';
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+/* GLOBAL STYLES */
+html {
+    font-size: 15px;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--light-gray);
+}
+
+/* MAIN */ 
+main {
+    background-color: var(--white);
+    margin: 0 auto;
+    width: 300px;
+    padding: 1.25em;
+    border-radius: 20px;
+    margin-block: 7em 5em;
+
+    text-align: center ;
+    box-shadow: 0px 10px 20px 5px #0000000a;
+}
+
+.qr__code img{
+    border-radius: 10px;
+}
+
+.card__details {
+    margin-block: 2em;
+}
+
+.card__details-title {
+    color: var(--dark-blue);
+    margin-bottom: 0.5em;
+    line-height: 1.2;
+}
+
+.card__details-description {
+    color: var(--grayish-blue);
+    line-height: 1.2;
+}
+
