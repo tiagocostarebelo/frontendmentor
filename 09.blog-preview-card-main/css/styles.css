@@ -1,0 +1,122 @@
+@import './resets.css';
+
+/* font-family: "Figtree", sans-serif; */
+:root {
+    /* PRIMARY */
+    --yellow: hsl(47, 88%, 63%);
+
+    /* NEUTRAL */
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 50%);
+    --black: hsl(0, 0%, 7%);
+}
+
+/* GLOBAL STYLES */
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "Figtree", sans-serif;
+    background-color: var(--yellow);
+}
+
+/* MAIN */
+.card__container {
+    background-color: var(--white);
+    margin: 0 auto;
+    width: 375px;
+    padding: 1.25em;
+    border-radius: 20px;
+    margin-block: 7em;
+    border: 1px solid var(--black);
+    box-shadow: 9px 9px 0px 0px #000000
+}
+
+@media screen and (max-width: 425px){
+    .card__container {
+        width: 325px;
+    }
+}
+
+.card__banner img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card__info {
+    margin-top: 1.5em;
+}
+
+.card__info-tag {
+    background-color: var(--yellow);
+    width: fit-content;
+    padding: 2px 10px;
+    border-radius: 5px;
+
+    font-size: 0.90em;
+    font-weight: 800;
+    margin-bottom: 0.75em;
+}
+
+.card__info-pubdate {
+    font-weight: 500;
+    font-size: 0.85em;
+}
+
+@media screen and (max-width: 425px){
+    .card__info-pubdate {
+        font-size: 0.75em;
+    }
+}
+
+.card__resume {
+    margin-top: 1em;
+}
+
+.card__resume-title {
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+.card__resume-title:hover{
+    color: var(--yellow);
+}
+
+.card__resume-brief {
+    margin-top: 1em;
+    color: var(--grey);
+    font-weight: 500;
+}
+
+@media screen and (max-width: 425px){
+    .card__resume-title {
+        font-size: 1.2em;
+    }
+    
+    .card__resume-brief {
+        font-size: 0.85em;
+    }
+}
+
+.card__author {
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1em;
+}
+
+.card__author img {
+    width: 30px;
+}
+
+.card__author-name {
+    font-weight: 800;
+}
+
+@media screen and (max-width: 425px){
+    .card__author-name {
+        font-size: 0.75em;
+    }
+}
