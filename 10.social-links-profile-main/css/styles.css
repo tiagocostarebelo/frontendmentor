@@ -1,0 +1,106 @@
+@import './resets.css';
+
+:root {
+    /* PRIMARY */
+    --green: hsl(75, 94%, 57%);
+
+    /* NEUTRAL */
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 20%);
+    --dark-grey: hsl(0, 0%, 12%);
+    --off-black: hsl(0, 0%, 8%);
+}
+
+/* GLOBAL STYLES */
+html {
+    font-size: 14px;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: var(--off-black);
+}
+
+/* MAIN */
+.card__container {
+    background-color: var(--dark-grey);
+    margin: 0 auto;
+    width: 100%;
+    max-width: 450px;
+    padding: 2em 3.5em;
+    border-radius: 20px;
+    margin-block: 7em;
+}
+
+@media screen and (max-width: 425px) {
+    .card__container {        
+        width: 100%;
+        max-width: 325px;
+        padding: 2em 1.5em;
+    }
+}
+
+.card__header {
+    text-align: center;
+    margin-block: 1.25em;
+}
+
+.card__header img {
+    margin: 0 auto;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.card__header-name {
+    margin-top: 0.85em;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.card__header-location {
+    margin-top: 0.25em;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--green);
+}
+
+.card__header-bio {
+    margin-top: 1.5em;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--white);
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 425px) {       
+    .card__header-bio {
+        font-size: 14px;
+    }
+}
+
+.card__links {
+    text-align: center;
+    margin-block: 1.5em;
+}
+
+.card__links-link {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    padding-block: 1em;
+    background-color: var(--grey);
+    font-weight: 700;
+    color: var(--white);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.card__links-link:hover {
+    background-color: var(--green);
+    color: var(--grey);
+    font-weight: 700;
+}
+
+.card__links-link:not(:first-child) {
+    margin-top: 1.25em;
+}
