@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github repository](https://your-solution-url.com)
+- Solution URL: [Github repository](https://github.com/tiagocostarebelo/frontendmentor/tree/main/11.product-preview-card-component-main)
 - Live Site URL: [Live site url](https://magical-sherbet-515718.netlify.app/)
 
 ## My process
