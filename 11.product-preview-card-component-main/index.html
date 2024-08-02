@@ -6,31 +6,45 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Product preview card component</title>
-
+  <link rel="stylesheet" href="./css/styles.css">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution { font-size: 11px; text-align: center; margin-top: 1em}
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
-
-  Perfume
-
-  Gabrielle Essence Eau De Parfum
-
-  A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-  Perfumer-Creator for the House of CHANEL.
-
-  $149.99
-  $169.99
-
-  Add to Cart
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div class="container">
+    <main class="card">
+      <picture class="card__left-half">
+        <source srcset="./images/image-product-mobile.jpg" media="(max-width: 426px)">
+        <img src="./images/image-product-desktop.jpg" alt="gabrielle eau de parfum">
+      </picture>
+      <section class="card__right-half">
+        <header class="card__right-half--header">
+          <h1 class="card__right-half--title">Gabrielle Essence Eau De Parfum</h1>
+          <p class="card__right-half--tag">Perfume</p>
+        </header>
+        <p class="card__right-half--brief">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+          Perfumer-Creator for the House of CHANEL.</p>
+        <div class="card__right-half--price">
+          <p class="card__right-half--price1">$149.99</p> 
+          <p class="card__right-half--price2">$169.99</p> 
+        </div>  
+        <button class="btn" type="submit">
+          <img src="./images/icon-cart.svg" class="btn-icon" alt="shopping cart icon">Add to Cart
+        </button>
+      </section>
+    </main>
+    
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/tiagocostarebelo" target="_blank">Tiago Costa Rebelo</a>.
+    </div>
   </div>
 </body>
 </html>
